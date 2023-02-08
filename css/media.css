@@ -1,0 +1,109 @@
+@media screen and (max-width:1200px){
+    .slick-prev, .slick-next{
+        display: none!important;
+    }
+    .col-md-6{
+        float: none;
+        width: 100%;
+    }
+    .mainAbout .row,
+    .mainServices .row,
+    .mainWork .row,
+    .mainBanner .row,
+    .mainIndustries .ServiceBox,
+    .mainIndustries .row,
+    .form-control-row-1,
+    .mainFooter .row,
+    .mainFeedback .row,
+    .mainCounter .row,
+    .mainNav .row,
+    .menuBtn{
+        display: block !important;;
+    }
+    .ServiceBox,
+    .mainIndustries .ServiceBox,
+    .massage textarea,
+    .namefield input,
+    .subfield input,
+    .col-md-3,
+    .mainForm label
+    {
+        width: 100%;
+    }
+    .logoBox{
+        width:45%;
+        text-align: center!important;
+    }
+    .counterLayer,.mainCounter,.ServiceBox {
+        height:auto;
+    }
+    .sBox h1{
+        font-size: 20px;
+    }
+    .ActionBtn a{
+        padding:16px 30px;
+    }
+    .mainAbout, .mainWork, .mainIndustries, .getInTouch{
+        padding:155px 0px;
+    }
+    .aboutContent{
+        padding:0px;
+    }
+    .ServiceBox,.form-control-row-1 label, .form-control-row-1 input, .massage textarea, .massage label{
+        margin-left:0px;
+    }
+    .fixedBtn img{
+        width:10%;
+    }
+    .logoBox img{
+        width:55%;
+    }
+    .mainBanner{
+        padding: 40px 20px!important;
+    }
+    .aboutContent h2, .titlebox h2{
+        font-size:40px;
+    }
+    .ServiceBox{
+        gap:20px;
+    }
+    .navList ul{
+        line-height: 2;
+    }
+    .navList .d-flex{
+        display: block;
+        padding:30px 0px;
+        gap:30px;
+    }
+    .logoBox{
+        text-align: left;
+    }
+    .logoBox a img{
+        width:50%;
+    }
+    .menuBtn button{
+        background-color: white;
+        border: 2px solid #1a237e;
+        padding: 7px 12px;
+        border-radius: 6px;
+         font-size: 17px;
+         position: absolute;
+        top: 27px;
+        right: 13px;
+        cursor: pointer;
+    }
+    .mainNav{
+        position: relative;
+    }
+    #menuList{
+        display: none;
+    }
+    .show{
+        display: block !important;
+    }
+    .mainWork .row{
+        display: flex!important;
+        align-items: center;
+    }
+}
+
